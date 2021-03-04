@@ -106,11 +106,11 @@ public class VideoPlayerImpl implements InterVideo, EventInterceptor {
         if (mMovieParentView == null) {
             FrameLayout mDecorView = (FrameLayout) mActivity.getWindow().getDecorView();
             mMovieParentView = new FullscreenHolder(mActivity);
-            mMovieParentView.addView(view);
-            mMovieParentView.setVisibility(View.VISIBLE);
             X5LogUtils.i("--Video-----onShowCustomView----添加view到decorView容齐中---");
             mDecorView.addView(mMovieParentView);
         }
+        mMovieParentView.addView(view);
+        mMovieParentView.setVisibility(View.VISIBLE);
     }
 
 

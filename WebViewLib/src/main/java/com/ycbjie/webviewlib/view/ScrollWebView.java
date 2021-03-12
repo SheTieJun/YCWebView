@@ -18,7 +18,6 @@ package com.ycbjie.webviewlib.view;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
@@ -31,6 +30,8 @@ import com.ycbjie.webviewlib.client.JsX5WebViewClient;
 import com.ycbjie.webviewlib.utils.X5LogUtils;
 
 import java.util.Map;
+
+import androidx.annotation.RequiresApi;
 
 /**
  * <pre>

@@ -1,12 +1,13 @@
 package com.ycbjie.webviewlib.cache;
 
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 
 import com.tencent.smtt.export.external.interfaces.WebResourceResponse;
 
 import java.io.InputStream;
 import java.util.Map;
+
+import androidx.annotation.RequiresApi;
 
 public class WebResponseAdapter extends WebResourceResponse {
 

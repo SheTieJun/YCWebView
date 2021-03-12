@@ -21,8 +21,6 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Message;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.view.KeyEvent;
 
@@ -42,6 +40,9 @@ import com.ycbjie.webviewlib.utils.X5LogUtils;
 import com.ycbjie.webviewlib.utils.X5WebUtils;
 
 import java.util.Stack;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 /**
  * <pre>

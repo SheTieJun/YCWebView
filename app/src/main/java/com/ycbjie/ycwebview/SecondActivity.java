@@ -2,8 +2,6 @@ package com.ycbjie.ycwebview;
 
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
 
@@ -11,6 +9,9 @@ import com.ycbjie.webviewlib.inter.DefaultWebListener;
 import com.ycbjie.webviewlib.utils.X5WebUtils;
 import com.ycbjie.webviewlib.view.X5WebView;
 import com.ycbjie.webviewlib.widget.WebProgress;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 
 public class SecondActivity extends AppCompatActivity {

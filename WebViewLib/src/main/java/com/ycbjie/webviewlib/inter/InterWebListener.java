@@ -16,9 +16,10 @@ limitations under the License.
 
 package com.ycbjie.webviewlib.inter;
 
-import android.support.annotation.IntRange;
 
 import com.ycbjie.webviewlib.utils.X5WebUtils;
+
+import androidx.annotation.IntRange;
 
 /**
  * <pre>

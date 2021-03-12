@@ -7,8 +7,6 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -25,6 +23,9 @@ import com.ycbjie.webviewlib.tools.AndroidBug5497Workaround;
 import com.ycbjie.webviewlib.utils.X5LogUtils;
 import com.ycbjie.webviewlib.utils.X5WebUtils;
 import com.ycbjie.webviewlib.widget.WebProgress;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 
 /**

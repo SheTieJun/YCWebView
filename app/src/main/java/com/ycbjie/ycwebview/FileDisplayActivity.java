@@ -3,9 +3,6 @@ package com.ycbjie.ycwebview;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.ycbjie.webviewlib.widget.FileReaderView;
@@ -13,6 +10,10 @@ import com.ycbjie.webviewlib.widget.FileReaderView;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 
 public class FileDisplayActivity extends AppCompatActivity {

@@ -3,8 +3,6 @@ package com.ycbjie.ycwebview;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -20,6 +18,9 @@ import com.ycbjie.webviewlib.wv.MethodExistCallback;
 import com.ycbjie.webviewlib.wv.ResponseCallback;
 import com.ycbjie.webviewlib.wv.WvJsHandler;
 import com.ycbjie.webviewlib.wv.X5WvWebView;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import static android.widget.Toast.LENGTH_SHORT;
 

@@ -6,8 +6,6 @@ import android.content.Context;
 import android.graphics.Color;
 import android.os.Handler;
 import android.os.Message;
-import android.support.annotation.LayoutRes;
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -20,6 +18,9 @@ import com.ycbjie.webviewlib.R;
 
 import java.lang.ref.SoftReference;
 import java.lang.reflect.Field;
+
+import androidx.annotation.LayoutRes;
+import androidx.annotation.NonNull;
 
 /**
  * <pre>

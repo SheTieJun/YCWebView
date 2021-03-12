@@ -2,7 +2,6 @@ package com.ycbjie.ycwebview;
 
 import android.content.Context;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
@@ -13,6 +12,8 @@ import android.webkit.WebViewClient;
 import com.ycbjie.webviewlib.utils.X5LogUtils;
 
 import java.util.Map;
+
+import androidx.annotation.RequiresApi;
 
 public class BaseWebView extends WebView {
 

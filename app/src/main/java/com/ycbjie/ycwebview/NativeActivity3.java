@@ -3,8 +3,6 @@ package com.ycbjie.ycwebview;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -22,6 +20,9 @@ import com.ycbjie.webviewlib.widget.WebProgress;
 import org.json.JSONObject;
 
 import java.util.HashMap;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import static android.widget.Toast.LENGTH_SHORT;
 

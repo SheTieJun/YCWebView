@@ -2,14 +2,15 @@ package com.ycbjie.ycwebview;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.LinearLayout;
 
 import com.ycbjie.slide.SlideLayout;
 import com.ycbjie.webviewlib.view.X5WebView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 public class TenActivity extends AppCompatActivity {
 

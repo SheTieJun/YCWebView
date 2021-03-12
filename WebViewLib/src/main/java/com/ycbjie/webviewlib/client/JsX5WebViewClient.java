@@ -17,7 +17,6 @@ package com.ycbjie.webviewlib.client;
 
 import android.content.Context;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.text.TextUtils;
 
 import com.alibaba.sdk.android.httpdns.HttpDnsService;
@@ -33,6 +32,8 @@ import com.ycbjie.webviewlib.utils.X5LogUtils;
 import com.ycbjie.webviewlib.utils.X5WebUtils;
 import com.ycbjie.webviewlib.view.BridgeWebView;
 import com.ycbjie.webviewlib.view.X5WebView;
+
+import androidx.annotation.RequiresApi;
 
 /**
  * <pre>

@@ -17,8 +17,6 @@ package com.ycbjie.webviewlib.widget;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -28,6 +26,9 @@ import com.ycbjie.webviewlib.R;
 import com.ycbjie.webviewlib.inter.DefaultWebListener;
 import com.ycbjie.webviewlib.utils.X5WebUtils;
 import com.ycbjie.webviewlib.view.X5WebView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 /**
  * <pre>

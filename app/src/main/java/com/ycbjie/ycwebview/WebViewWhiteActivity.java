@@ -5,8 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 
 import com.tencent.smtt.export.external.interfaces.WebResourceRequest;
@@ -22,6 +20,9 @@ import com.ycbjie.webviewlib.widget.WebProgress;
 
 import java.util.ArrayList;
 import java.util.Random;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * <pre>
